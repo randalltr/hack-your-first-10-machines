@@ -6,7 +6,27 @@ Now it’s time to actually hack.
 
 This book walks you through your first 10 Hack The Box machines using a simple, repeatable process:
 
-Nmap → Investigate → Exploit → Privilege Escalation
+```
+    ┌──────────────┐
+    │     Nmap     │
+    └──────┬───────┘
+           │
+           ▼
+    ┌──────────────┐
+    │   Exploit    │
+    └──────┬───────┘
+           │
+           ▼
+    ┌──────────────┐
+    │   PrivEsc    │
+    └──────┬───────┘
+           │
+           ▼
+    ┌──────────────┐
+    │     root     │
+    │     id=0     │
+    └──────────────┘
+```
 
 No fluff. No overwhelm. Just reps.
 
